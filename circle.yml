@@ -1,0 +1,3 @@
+test:
+  pre:
+    - sed -i 's@__TOKEN__@'"$GH_TOKEN"'@' test/resources/test.properties
