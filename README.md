@@ -19,7 +19,6 @@ So, if used in a job that publishes artifacts from a master branch, it would, as
         repo            = build-tools-test-repo
         branch          = develop
         
-        
 ### usage
 
         python updater.py -f /setup.py -p "\s+version='(\d+\.\d+\.\d+)'," -t token -o github-org -r github-repo -b branch -m increment
@@ -27,3 +26,5 @@ So, if used in a job that publishes artifacts from a master branch, it would, as
         python updater.py -f /setup.py -p "\s+version='(\d+\.\d+\.\d+)'," -t token -o github-org -r github-repo -b branch -m increment
         
 
+## rebooter.py
+Rebooter is still under development
