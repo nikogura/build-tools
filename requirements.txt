@@ -1,0 +1,7 @@
+#--index-url https://pypi.foo.com/simple
+#--extra-index-url https://pypi.foo.com/simple
+
+gitpython==2.0.8
+PyGitHub==1.27.1
+requests==2.11.1
+xmltodict==0.10.2
