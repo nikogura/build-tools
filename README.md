@@ -12,10 +12,10 @@ So, if used in a job that publishes artifacts from a master branch, it would, as
 ### config file
 
         [default]
-        username        = iautobot
+        username        = automation name
         gh_token        = <github token>
-        gh_url          = https://github.pie.apple.com/api/v3
-        org             = iossys-devops
+        gh_url          = https://github.com/api/v3
+        org             = some org
         repo            = build-tools-test-repo
         branch          = develop
         
